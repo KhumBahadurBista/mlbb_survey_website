@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">MLBB REGISTRATION FORM </h1>
+    <p id="description"> Please fillup the correct information on the form for mlbb tournament. 
+    </p>
+    <form id="survey-form">
+      <label id="name-label">
+       <h2> Name of player:</h2><input type="text" id="name" required placeholder="Enter your name"/>
+        </label>
+
+        <label id="email-label">
+       <h2> Email:</h2><input type="email" id="email" required placeholder="Enter your email"/>
+        </label>
+
+         <label id="number-label">
+       <h2> Age(optional):</h2><input type="number" id="number" required min="1" max="100" placeholder="Age"/>
+        </label>
+    <h2> which one describe your role? </h2>    <select id="dropdown"> 
+          <option>(select)</option>
+          <option>marksman</option>
+          <option> mage </option>
+          <option> hyper </option>
+          <option> tank</option>
+          <option> fighter </option>
+        </select>
+        <h2>How often have you played mlbb tournaments?</h2>
+        <input name="1" value="test1" type="radio" id="bott" checked>very often </input>
+        <input name="1" value="test2" type="radio" id="bott"> not often </input>
+  <h2> Which role will you play in this tournament?(select any role you are willing to play)
+  </h2>
+ 
+   <input type="checkbox" id="check" value="check1" name="check"> mm    </input> <br>
+   <input type="checkbox" id="check" value="check2" name="check"/> hyper </input> 
+   <br>
+   <input type="checkbox" id="check" value="check3" name="check"/> mage </input>    
+   <br>
+   <input type="checkbox" id="check" value="check4" name="check"/> fighter </input> 
+   <br>
+   <input type="checkbox" id="check" value="check5" name="check"/> roamer </input> 
+   <textarea id="textarea" placeholder="Any suggestion or improvement you want in future..."> </textarea>
+      
+      
+        <button id="submit">Submit
+        </button>
+
+
+    </form>
+  </body>
